@@ -172,6 +172,6 @@ Next steps:
 
 ## About Me
 
-我是一名云产品经理，目前主要负责 CDN 相关产品方向。
+Hello，我是White，目前是一名云计算行业的产品经理。我主要负责 BytePlus CDN 的基础产品功能设计和规划，面向ToB企业级客户售卖。
 
 我正在从云产品经验出发，探索 AI Agent、MCP、CLI 和开发者工具方向，希望通过真实项目提升自己对 AI 产品、开发者体验和 Agent Friendly 系统设计的理解。
