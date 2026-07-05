@@ -31,8 +31,8 @@ daily/template.md
 每天晚上，自动任务会做这些事：
 
 1. 读取当天的 `daily/YYYY-MM-DD.md`。
-2. 如果当天没有记录，就不编造内容，只在总结中标记为缺失。
-3. 生成或更新 `summaries/daily/YYYY-MM-DD.md`。
+2. 如果当天没有记录，就不创建当天总结，也不要提交空内容。
+3. 如果当天记录存在，生成或更新 `summaries/daily/YYYY-MM-DD.md`。
 4. 根据最近记录更新 README 中的当前进展。
 5. 提交改动。
 6. 尝试推送到 GitHub。
@@ -59,4 +59,3 @@ daily/template.md
 - 任何会提交到仓库的文件
 
 自动推送应使用本机安全凭证，例如 GitHub Desktop、系统 Keychain 或 Git credential helper。
-

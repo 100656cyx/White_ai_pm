@@ -162,7 +162,8 @@ Next steps:
 
 - [x] Create the GitHub repo and README
 - [x] Build the daily learning log workflow
-- [x] Generate daily learning summaries through 2026-07-05
+- [x] Add the first ReAct Agent learning sample
+- [x] Generate daily learning summaries for recorded learning days
 - [ ] Create the first CLI prototype
 - [ ] Add sample CDN logs
 - [ ] Generate structured diagnosis reports
