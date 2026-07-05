@@ -32,10 +32,13 @@ daily/template.md
 
 1. 读取当天的 `daily/YYYY-MM-DD.md`。
 2. 如果当天没有记录，就不创建当天总结，也不要提交空内容。
-3. 如果当天记录存在，生成或更新 `summaries/daily/YYYY-MM-DD.md`。
-4. 根据最近记录更新 README 中的当前进展。
-5. 提交改动。
-6. 尝试推送到 GitHub。
+3. 如果当天总结 `summaries/daily/YYYY-MM-DD.md` 已经存在，并且当天原始记录没有新的实质变更，就跳过本次更新，避免重复提交。
+4. 如果当天记录存在且需要整理，生成或更新 `summaries/daily/YYYY-MM-DD.md`。
+5. 根据最近记录更新 README 中的当前进展。
+6. 提交改动。
+7. 尝试推送到 GitHub。
+
+如果当天已经提前让 Codex 整理并上传过，晚上 22:30 的自动任务应该跳过，不再重复生成或提交。
 
 ## Summary Standard
 
