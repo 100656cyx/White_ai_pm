@@ -163,6 +163,7 @@ Next steps:
 - [x] Create the GitHub repo and README
 - [x] Build the daily learning log workflow
 - [x] Add the first ReAct Agent learning sample
+- [x] Add Agent Series 1 notes on Tool Calling and Agent workflows
 - [x] Generate daily learning summaries for recorded learning days
 - [ ] Create the first CLI prototype
 - [ ] Add sample CDN logs
