@@ -7,8 +7,16 @@
 每天学习或实操后，在 `daily/` 目录新增一篇记录：
 
 ```text
-daily/YYYY-MM-DD.md
+daily/YYYY-MM-DD-topic.md
 ```
+
+例如：
+
+```text
+daily/2026-07-06-LangChain and ToolCall.md
+```
+
+`topic` 是当天学习内容的一到两个概念词，可以使用英文概念词、中文或拼音；允许保留空格，但要简短清晰。
 
 可以直接复制：
 
@@ -30,10 +38,10 @@ daily/template.md
 
 每天晚上，自动任务会做这些事：
 
-1. 读取当天的 `daily/YYYY-MM-DD.md`。
+1. 读取当天的 `daily/YYYY-MM-DD-topic.md`，优先匹配 `daily/YYYY-MM-DD-*.md`。
 2. 如果当天没有记录，就不创建当天总结，也不要提交空内容。
-3. 如果当天总结 `summaries/daily/YYYY-MM-DD.md` 已经存在，并且当天原始记录没有新的实质变更，就跳过本次更新，避免重复提交。
-4. 如果当天记录存在且需要整理，生成或更新 `summaries/daily/YYYY-MM-DD.md`。
+3. 如果当天总结已经存在，并且当天原始记录没有新的实质变更，就跳过本次更新，避免重复提交。
+4. 如果当天记录存在且需要整理，生成或更新当天对应的 summary 文件。
 5. 根据最近记录更新 README 中的当前进展。
 6. 提交改动。
 7. 尝试推送到 GitHub。
